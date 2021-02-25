@@ -1,0 +1,239 @@
+html,
+body {
+  margin: auto;
+  max-width: 100%;
+}
+.left {
+    background: transparent linear-gradient(140deg, #58CFE6 0%, #366BB1 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 4px 0px 6px #00000029;
+    opacity: 1;
+    float: left;
+    padding: 25px 30px;
+    top: 0px;
+    left: 0px;
+    width: 40vw;
+    height: 768px;
+   position: fixed;
+}
+.left > .logo {
+    top: 39px;
+left: 56px;
+width: 82px;
+height: 23px;
+text-align: left;
+font: normal normal bold 20px/25px Radikal;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.left > .layout1{
+    position: relative;
+    top: -15px;
+left: 453px;
+/*width: 112px;
+height: 112px;*/
+transform: matrix(0.7, 0.71, -0.71, 0.8, 0, 0);
+width: 0; 
+  height: 0; 
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  
+  border-bottom: 100px solid #b5dff1;
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 8px 12px #00000029;
+opacity: 0.12
+}
+
+.left > .layout2{
+    position: relative;
+    top: 0px;
+left: -2.2737367544323206e-13px;
+
+width: 0; 
+  height: 0; 
+  border-left: 51.48px solid transparent;
+  border-right: 51.48px solid transparent;
+  
+  border-bottom: 71.48px solid #b5dff1;
+transform: matrix(0.68, -0.73, 0.73, 0.68, 0, 0);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 8px 12px #00000029;
+opacity: 0.12;
+}
+
+.left > .layout3{
+    position: relative;
+    top: 0px;
+left: 281px;
+/*width: 42px;
+height: 42px;*/
+width: 0; 
+  height: 0; 
+  border-left: 30.03px solid transparent;
+  border-right: 30.03px solid transparent;
+  
+  border-bottom: 50.03px solid #b5dff1;
+transform: matrix(0.68, -0.73, 0.73, 0.68, 0, 0);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 8px 12px #00000029;
+opacity: 0.12;
+}
+
+.left > .layout4{
+    position: relative;
+    top: -100px;
+left: 480px;
+/*width: 61px;
+height: 61px;*/
+width: 0; 
+  height: 0; 
+  border-left: 43.615px solid transparent;
+  border-right: 43.615px solid transparent;
+  
+  border-bottom: 63.615px solid #b5dff1;
+transform: matrix(0.68, -0.73, 0.73, 0.68, 0, 0);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 8px 12px #00000029;
+opacity: 0.12;
+}
+
+.left > .layout5{
+    position: relative;
+    top: -30px;
+left: 50px;/*
+width: 32px;
+height: 35px;*/
+width: 0; 
+  height: 0; 
+  border-left: 25.025px solid transparent;
+  border-right: 25.025px solid transparent;
+  
+  border-bottom: 45.025px solid #b5dff1;
+transform: matrix(-0.12, -0.99, 0.99, -0.12, 0, 0);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 8px 12px #00000029;
+opacity: 0.12;
+}
+
+.left > .woman-svg{
+    position: relative;
+    top: -100px;
+left: 383px;
+width: 181px;
+height: 280px;
+
+opacity: 1;
+}
+
+.left > .man-svg{
+    position: relative;
+    top: 45px;
+left: -150px;
+width: 327px;
+height: 349px;
+
+opacity: 1;
+}
+.right {
+    float: right;
+    width: 55vw;
+    overflow: hidden;
+    clear: right;
+    height: 100vh;
+}
+
+.right> .content{
+    position: relative;
+    top: 80px;
+    left: 150px;
+
+
+text-align: left;
+
+}
+
+.hey-there{
+    
+width: 167px;
+height: 33px;
+text-align: left;
+font: normal normal bold 30px/33px Gotham;
+letter-spacing: 0px;
+color: #36639E;
+opacity: 1;
+}
+
+.para{
+    width: 411px;
+height: 45px;
+text-align: left;
+font: normal normal medium 16px/18px Gotham;
+letter-spacing: 0px;
+color: #A5A5A5;
+opacity: 1;
+}
+
+.form{
+    position: relative;
+    width: 434px;
+    top: 90px;
+    left: 150px;
+    
+    text-align: center;
+}
+
+.form-heading{
+text-align: left;
+font: normal normal medium  Gotham;
+font-size: 18px;
+letter-spacing: 0px;
+color: #363636;
+opacity: 1;
+}
+
+.input{
+    text-align: left;
+    width: 434px;
+height: 45px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 5px #C3DFE4;
+border: 2px solid #58CFE6;
+border-radius: 4px;
+opacity: 1;
+}
+
+.button{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 183px;
+height: 57px;
+background: #FF6F5E 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 7px #C9E4E9;
+border-radius: 5px;
+opacity: 1;
+font: normal normal bold  Gotham;
+font-size: 20px;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.form-para{
+margin-left: 72px;
+    width: 305px;
+text-align: center;
+font: normal normal normal  Gotham;
+font-size: 14px;
+letter-spacing: 0px;
+color: #363636;
+}
+.form-para > span{
+    text-align: center;
+text-decoration: underline;
+font: normal normal medium  Gotham;
+font-size: 14px;
+letter-spacing: 0px;
+color: #58CFE6;
+}
